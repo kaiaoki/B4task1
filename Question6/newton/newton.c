@@ -11,7 +11,7 @@ void main(void)
     double Ans1,Ans2,x1=10.0,x2=-10.0;
     Ans1=newton(x1);
     Ans2=newton(x2);
-    printf("%lf %lf",Ans1,Ans2);
+    printf("%lf %lf\n",Ans1,Ans2);
 }
 double f(double x)
 {
